@@ -1,0 +1,23 @@
+{
+  "name": "social-sdk",
+  "version": "1.0.0",
+  "description": "Sdk for social features",
+  "package_version": 2,
+  "main": "main.js",
+  "runtime-resource": {
+    "path": "scripts",
+    "name": "scripts"
+  },
+  "contributions": {
+    "asset-db": {
+      "mount": {
+        "path": "./scripts"
+      }
+    }
+  },
+  "main-menu": {},
+  "dependencies": {
+    "@types/facebook-instant-games": "^7.0.2",
+    "typescript-collections": "^1.3.3"
+  }
+}
